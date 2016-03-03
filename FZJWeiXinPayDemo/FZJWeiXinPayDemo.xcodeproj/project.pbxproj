@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AAC80C81C87C51800C16657 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC80C71C87C51800C16657 /* main.m */; };
+		3AAC80CB1C87C51800C16657 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC80CA1C87C51800C16657 /* AppDelegate.m */; };
+		3AAC80D11C87C51800C16657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAC80CF1C87C51800C16657 /* Main.storyboard */; };
+		3AAC80D31C87C51800C16657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAC80D21C87C51800C16657 /* Assets.xcassets */; };
+		3AAC80D61C87C51800C16657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAC80D41C87C51800C16657 /* LaunchScreen.storyboard */; };
+		3AAC80E21C87C5A900C16657 /* FZJWeiXinPayMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC80E11C87C5A900C16657 /* FZJWeiXinPayMainController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AAC80C31C87C51800C16657 /* FZJWeiXinPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZJWeiXinPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAC80C71C87C51800C16657 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AAC80C91C87C51800C16657 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AAC80CA1C87C51800C16657 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AAC80D01C87C51800C16657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AAC80D21C87C51800C16657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AAC80D51C87C51800C16657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AAC80D71C87C51800C16657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AAC80E01C87C5A900C16657 /* FZJWeiXinPayMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FZJWeiXinPayMainController.h; path = ../FZJWeiXinPayMainController.h; sourceTree = "<group>"; };
+		3AAC80E11C87C5A900C16657 /* FZJWeiXinPayMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FZJWeiXinPayMainController.m; path = ../FZJWeiXinPayMainController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AAC80C01C87C51800C16657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AAC80BA1C87C51800C16657 = {
+			isa = PBXGroup;
+			children = (
+				3AAC80C51C87C51800C16657 /* FZJWeiXinPayDemo */,
+				3AAC80C41C87C51800C16657 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AAC80C41C87C51800C16657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AAC80C31C87C51800C16657 /* FZJWeiXinPayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AAC80C51C87C51800C16657 /* FZJWeiXinPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3AAC80C91C87C51800C16657 /* AppDelegate.h */,
+				3AAC80CA1C87C51800C16657 /* AppDelegate.m */,
+				3AAC80E01C87C5A900C16657 /* FZJWeiXinPayMainController.h */,
+				3AAC80E11C87C5A900C16657 /* FZJWeiXinPayMainController.m */,
+				3AAC80CF1C87C51800C16657 /* Main.storyboard */,
+				3AAC80D21C87C51800C16657 /* Assets.xcassets */,
+				3AAC80D41C87C51800C16657 /* LaunchScreen.storyboard */,
+				3AAC80D71C87C51800C16657 /* Info.plist */,
+				3AAC80C61C87C51800C16657 /* Supporting Files */,
+			);
+			path = FZJWeiXinPayDemo;
+			sourceTree = "<group>";
+		};
+		3AAC80C61C87C51800C16657 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AAC80C71C87C51800C16657 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AAC80C21C87C51800C16657 /* FZJWeiXinPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AAC80DA1C87C51800C16657 /* Build configuration list for PBXNativeTarget "FZJWeiXinPayDemo" */;
+			buildPhases = (
+				3AAC80BF1C87C51800C16657 /* Sources */,
+				3AAC80C01C87C51800C16657 /* Frameworks */,
+				3AAC80C11C87C51800C16657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZJWeiXinPayDemo;
+			productName = FZJWeiXinPayDemo;
+			productReference = 3AAC80C31C87C51800C16657 /* FZJWeiXinPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AAC80BB1C87C51800C16657 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FZJ.com;
+				TargetAttributes = {
+					3AAC80C21C87C51800C16657 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3AAC80BE1C87C51800C16657 /* Build configuration list for PBXProject "FZJWeiXinPayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AAC80BA1C87C51800C16657;
+			productRefGroup = 3AAC80C41C87C51800C16657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AAC80C21C87C51800C16657 /* FZJWeiXinPayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AAC80C11C87C51800C16657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAC80D61C87C51800C16657 /* LaunchScreen.storyboard in Resources */,
+				3AAC80D31C87C51800C16657 /* Assets.xcassets in Resources */,
+				3AAC80D11C87C51800C16657 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AAC80BF1C87C51800C16657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAC80CB1C87C51800C16657 /* AppDelegate.m in Sources */,
+				3AAC80E21C87C5A900C16657 /* FZJWeiXinPayMainController.m in Sources */,
+				3AAC80C81C87C51800C16657 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AAC80CF1C87C51800C16657 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AAC80D01C87C51800C16657 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AAC80D41C87C51800C16657 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AAC80D51C87C51800C16657 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AAC80D81C87C51800C16657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AAC80D91C87C51800C16657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AAC80DB1C87C51800C16657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FZJWeiXinPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FZJ.FZJWeiXinPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AAC80DC1C87C51800C16657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FZJWeiXinPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FZJ.FZJWeiXinPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AAC80BE1C87C51800C16657 /* Build configuration list for PBXProject "FZJWeiXinPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AAC80D81C87C51800C16657 /* Debug */,
+				3AAC80D91C87C51800C16657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AAC80DA1C87C51800C16657 /* Build configuration list for PBXNativeTarget "FZJWeiXinPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AAC80DB1C87C51800C16657 /* Debug */,
+				3AAC80DC1C87C51800C16657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AAC80BB1C87C51800C16657 /* Project object */;
+}
