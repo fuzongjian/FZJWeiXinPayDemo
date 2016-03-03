@@ -1,0 +1,25 @@
+//
+//  WeiXinPay.pch
+//  FZJWeiXinPayDemo
+//
+//  Created by fdkj0002 on 16/3/3.
+//  Copyright © 2016年 FZJ.com. All rights reserved.
+//
+
+#ifndef WeiXinPay_pch
+#define WeiXinPay_pch
+
+#import "WXApiObject.h"
+#import "WXApi.h"
+
+
+#define APP_KEY @"wxeiXinPayDemo123"//微信支付的appid(不是微信分享的appid)
+
+
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* WeiXinPay_pch */
